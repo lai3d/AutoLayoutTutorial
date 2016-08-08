@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="j2j-A2-MhR">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Second View Controller-->
+        <scene sceneID="1FG-Vp-BaT">
+            <objects>
+                <viewController id="j2j-A2-MhR" customClass="SecondViewController" customModule="TabApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dRB-be-beC"/>
+                        <viewControllerLayoutGuide type="bottom" id="F5p-DL-Hhy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Mv-Fz-gaA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Gb-5D-wF8" userLabel="ViewGreen">
+                                <rect key="frame" x="20" y="36" width="220" height="254"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="60" y="28" width="130" height="254"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="60" y="89" width="130" height="254"/>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8zI-Ft-ClN" userLabel="ViewBlue">
+                                <rect key="frame" x="20" y="310" width="540" height="254"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="60" y="302" width="280" height="254"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="60" y="363" width="280" height="254"/>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f3m-hb-fgH" userLabel="ViewYellow">
+                                <rect key="frame" x="340" y="36" width="220" height="254"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="210" y="28" width="130" height="254"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="210" y="89" width="130" height="254"/>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="f3m-hb-fgH" firstAttribute="leading" secondItem="7Gb-5D-wF8" secondAttribute="trailing" constant="100" id="62C-vL-A2P"/>
+                            <constraint firstItem="f3m-hb-fgH" firstAttribute="width" secondItem="7Gb-5D-wF8" secondAttribute="width" id="6ur-Oi-DZF"/>
+                            <constraint firstItem="7Gb-5D-wF8" firstAttribute="top" secondItem="dRB-be-beC" secondAttribute="bottom" constant="16" id="Bbj-C9-7Zp"/>
+                            <constraint firstItem="f3m-hb-fgH" firstAttribute="height" secondItem="7Gb-5D-wF8" secondAttribute="height" id="BoB-cC-JQn"/>
+                            <constraint firstItem="8zI-Ft-ClN" firstAttribute="top" secondItem="7Gb-5D-wF8" secondAttribute="bottom" constant="20" id="EvB-aE-yV6"/>
+                            <constraint firstItem="7Gb-5D-wF8" firstAttribute="leading" secondItem="3Mv-Fz-gaA" secondAttribute="leadingMargin" id="Fr3-hf-MIJ"/>
+                            <constraint firstItem="8zI-Ft-ClN" firstAttribute="leading" secondItem="3Mv-Fz-gaA" secondAttribute="leadingMargin" id="I2X-Vp-hUA"/>
+                            <constraint firstItem="8zI-Ft-ClN" firstAttribute="height" secondItem="7Gb-5D-wF8" secondAttribute="height" id="ZEg-9G-ies"/>
+                            <constraint firstItem="F5p-DL-Hhy" firstAttribute="top" secondItem="8zI-Ft-ClN" secondAttribute="bottom" constant="36" id="gyi-cl-Fqy"/>
+                            <constraint firstItem="f3m-hb-fgH" firstAttribute="top" secondItem="dRB-be-beC" secondAttribute="bottom" constant="16" id="pPB-Un-Lg2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="f3m-hb-fgH" secondAttribute="trailing" constant="20" id="pxO-9X-gAT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8zI-Ft-ClN" secondAttribute="trailing" constant="20" id="szQ-ZT-oSf"/>
+                            <constraint firstItem="F5p-DL-Hhy" firstAttribute="top" secondItem="8zI-Ft-ClN" secondAttribute="bottom" constant="36" id="tff-Xp-LFf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KzT-bk-xAq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="478" y="460"/>
+        </scene>
+    </scenes>
+</document>
