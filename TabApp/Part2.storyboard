@@ -36,7 +36,7 @@
                                 <state key="normal" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67c-E2-hV9">
-                                <rect key="frame" x="137" y="448" width="46" height="30"/>
+                                <rect key="frame" x="114" y="448" width="92" height="30"/>
                                 <color key="backgroundColor" red="0.1688855906" green="1" blue="0.13789905359999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -49,6 +49,7 @@
                             <constraint firstItem="Hzf-bB-qCD" firstAttribute="leading" secondItem="MzL-BZ-tcb" secondAttribute="trailing" constant="8" id="4rv-T4-DDM"/>
                             <constraint firstItem="YHo-kE-Wq0" firstAttribute="top" secondItem="Hzf-bB-qCD" secondAttribute="bottom" constant="20" id="6OE-5I-DKf"/>
                             <constraint firstItem="Ae8-Tn-d8q" firstAttribute="top" secondItem="Uuw-eS-YSD" secondAttribute="bottom" id="LD7-bL-ZZo"/>
+                            <constraint firstItem="Hzf-bB-qCD" firstAttribute="width" secondItem="67c-E2-hV9" secondAttribute="width" id="NxX-4d-tVS"/>
                             <constraint firstItem="YHo-kE-Wq0" firstAttribute="top" secondItem="MzL-BZ-tcb" secondAttribute="bottom" constant="20" id="S2r-vJ-Kps"/>
                             <constraint firstItem="Hzf-bB-qCD" firstAttribute="centerX" secondItem="67c-E2-hV9" secondAttribute="centerX" id="UD7-l7-Y71"/>
                             <constraint firstItem="Ae8-Tn-d8q" firstAttribute="trailing" secondItem="m5w-k3-xKP" secondAttribute="trailingMargin" constant="-26" id="hhz-DP-i7y"/>
