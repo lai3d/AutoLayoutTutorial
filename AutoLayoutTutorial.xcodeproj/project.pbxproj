@@ -14,6 +14,7 @@
 		28418B9F1D546CEA00DB0FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28418B9E1D546CEA00DB0FC5 /* Assets.xcassets */; };
 		28418BA21D546CEA00DB0FC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28418BA01D546CEA00DB0FC5 /* LaunchScreen.storyboard */; };
 		288B81121D586A1800E0B5FA /* CourtingConstraints.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288B81111D586A1800E0B5FA /* CourtingConstraints.storyboard */; };
+		288B81141D588DB700E0B5FA /* Part2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288B81131D588DB700E0B5FA /* Part2.storyboard */; };
 		28F4CCF11D54960A001EBC4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F4CCF01D54960A001EBC4E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		28418BA11D546CEA00DB0FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28418BA31D546CEA00DB0FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		288B81111D586A1800E0B5FA /* CourtingConstraints.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CourtingConstraints.storyboard; sourceTree = "<group>"; };
+		288B81131D588DB700E0B5FA /* Part2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Part2.storyboard; sourceTree = "<group>"; };
 		28F4CCF01D54960A001EBC4E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 				28418BA31D546CEA00DB0FC5 /* Info.plist */,
 				28F4CCF01D54960A001EBC4E /* Main.storyboard */,
 				288B81111D586A1800E0B5FA /* CourtingConstraints.storyboard */,
+				288B81131D588DB700E0B5FA /* Part2.storyboard */,
 			);
 			name = AutoLayoutTutorial;
 			path = TabApp;
@@ -137,6 +140,7 @@
 				28418B9F1D546CEA00DB0FC5 /* Assets.xcassets in Resources */,
 				28418B9D1D546CEA00DB0FC5 /* Autoresizing.storyboard in Resources */,
 				28F4CCF11D54960A001EBC4E /* Main.storyboard in Resources */,
+				288B81141D588DB700E0B5FA /* Part2.storyboard in Resources */,
 				288B81121D586A1800E0B5FA /* CourtingConstraints.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
