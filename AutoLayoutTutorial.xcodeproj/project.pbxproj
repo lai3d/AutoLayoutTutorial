@@ -267,7 +267,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TabApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.afusion.tabapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.superfun.autolayout;
 				PRODUCT_NAME = AutoLayoutTutorial;
 				PROVISIONING_PROFILE = "";
 			};
@@ -281,7 +281,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TabApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.afusion.tabapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.superfun.autolayout;
 				PRODUCT_NAME = AutoLayoutTutorial;
 				PROVISIONING_PROFILE = "";
 			};

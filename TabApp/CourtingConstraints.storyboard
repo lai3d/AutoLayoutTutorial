@@ -19,14 +19,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jk4-eW-MJE">
-                                <rect key="frame" x="20" y="20" width="46" height="30"/>
+                                <rect key="frame" x="228" y="20" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lb1-sJ-t0X">
+                                <rect key="frame" x="137" y="518" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Jk4-eW-MJE" firstAttribute="trailing" secondItem="ESb-Rv-UHs" secondAttribute="trailingMargin" constant="-26" id="f4E-Le-9Tv"/>
+                            <constraint firstItem="Lb1-sJ-t0X" firstAttribute="centerX" secondItem="ESb-Rv-UHs" secondAttribute="centerX" id="iLH-R5-Fv1"/>
                             <constraint firstItem="Jk4-eW-MJE" firstAttribute="top" secondItem="crt-xz-ybW" secondAttribute="bottom" id="jVC-fg-D1F"/>
-                            <constraint firstItem="Jk4-eW-MJE" firstAttribute="leading" secondItem="ESb-Rv-UHs" secondAttribute="leadingMargin" id="jXp-wM-MHU"/>
+                            <constraint firstItem="Jq3-ji-v33" firstAttribute="top" secondItem="Lb1-sJ-t0X" secondAttribute="bottom" constant="20" id="nfm-mh-oUx"/>
                         </constraints>
                     </view>
                 </viewController>
