@@ -9,7 +9,7 @@
         <!--Second View Controller-->
         <scene sceneID="1FG-Vp-BaT">
             <objects>
-                <viewController id="j2j-A2-MhR" customClass="SecondViewController" customModule="TabApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="j2j-A2-MhR" customClass="SecondViewController" customModule="AutoLayoutTutorial" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dRB-be-beC"/>
                         <viewControllerLayoutGuide type="bottom" id="F5p-DL-Hhy"/>

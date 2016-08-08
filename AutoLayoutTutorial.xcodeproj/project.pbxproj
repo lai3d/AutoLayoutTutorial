@@ -42,7 +42,7 @@
 		28418B891D546CEA00DB0FC5 = {
 			isa = PBXGroup;
 			children = (
-				28418B941D546CEA00DB0FC5 /* TabApp */,
+				28418B941D546CEA00DB0FC5 /* AutoLayoutTutorial */,
 				28418B931D546CEA00DB0FC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28418B941D546CEA00DB0FC5 /* TabApp */ = {
+		28418B941D546CEA00DB0FC5 /* AutoLayoutTutorial */ = {
 			isa = PBXGroup;
 			children = (
 				28418B951D546CEA00DB0FC5 /* AppDelegate.swift */,
@@ -67,6 +67,7 @@
 				28418BA31D546CEA00DB0FC5 /* Info.plist */,
 				28F4CCF01D54960A001EBC4E /* Main.storyboard */,
 			);
+			name = AutoLayoutTutorial;
 			path = TabApp;
 			sourceTree = "<group>";
 		};
