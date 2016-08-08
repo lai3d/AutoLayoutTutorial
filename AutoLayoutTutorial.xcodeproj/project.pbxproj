@@ -15,6 +15,7 @@
 		28418BA21D546CEA00DB0FC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28418BA01D546CEA00DB0FC5 /* LaunchScreen.storyboard */; };
 		288B81121D586A1800E0B5FA /* CourtingConstraints.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288B81111D586A1800E0B5FA /* CourtingConstraints.storyboard */; };
 		288B81141D588DB700E0B5FA /* Part2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288B81131D588DB700E0B5FA /* Part2.storyboard */; };
+		288B81161D58904A00E0B5FA /* Part2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B81151D58904A00E0B5FA /* Part2ViewController.swift */; };
 		28F4CCF11D54960A001EBC4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F4CCF01D54960A001EBC4E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		28418BA31D546CEA00DB0FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		288B81111D586A1800E0B5FA /* CourtingConstraints.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CourtingConstraints.storyboard; sourceTree = "<group>"; };
 		288B81131D588DB700E0B5FA /* Part2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Part2.storyboard; sourceTree = "<group>"; };
+		288B81151D58904A00E0B5FA /* Part2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Part2ViewController.swift; sourceTree = "<group>"; };
 		28F4CCF01D54960A001EBC4E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				28F4CCF01D54960A001EBC4E /* Main.storyboard */,
 				288B81111D586A1800E0B5FA /* CourtingConstraints.storyboard */,
 				288B81131D588DB700E0B5FA /* Part2.storyboard */,
+				288B81151D58904A00E0B5FA /* Part2ViewController.swift */,
 			);
 			name = AutoLayoutTutorial;
 			path = TabApp;
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				288B81161D58904A00E0B5FA /* Part2ViewController.swift in Sources */,
 				28418B9A1D546CEA00DB0FC5 /* SecondViewController.swift in Sources */,
 				28418B961D546CEA00DB0FC5 /* AppDelegate.swift in Sources */,
 				28418B981D546CEA00DB0FC5 /* FirstViewController.swift in Sources */,

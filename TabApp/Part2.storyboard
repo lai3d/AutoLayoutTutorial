@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Part2 View Controller-->
         <scene sceneID="8o1-ie-7U6">
             <objects>
-                <viewController id="cdz-od-leg" sceneMemberID="viewController">
+                <viewController id="cdz-od-leg" customClass="Part2ViewController" customModule="AutoLayoutTutorial" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Uuw-eS-YSD"/>
                         <viewControllerLayoutGuide type="bottom" id="YHo-kE-Wq0"/>
@@ -27,6 +27,9 @@
                                 <color key="backgroundColor" red="1" green="0.92435294879999996" blue="0.037670593260000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="A longer label"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="cdz-od-leg" eventType="touchUpInside" id="iuv-uV-K3d"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MzL-BZ-tcb">
                                 <rect key="frame" x="60" y="518" width="46" height="30"/>
@@ -36,15 +39,18 @@
                                 <rect key="frame" x="114" y="448" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.1688855906" green="1" blue="0.13789905359999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="cdz-od-leg" eventType="touchUpInside" id="uMz-FC-XNf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="67c-E2-hV9" firstAttribute="leading" secondItem="Hzf-bB-qCD" secondAttribute="leading" id="2th-eQ-Loq"/>
                             <constraint firstItem="Hzf-bB-qCD" firstAttribute="leading" secondItem="MzL-BZ-tcb" secondAttribute="trailing" constant="8" id="4rv-T4-DDM"/>
                             <constraint firstItem="YHo-kE-Wq0" firstAttribute="top" secondItem="Hzf-bB-qCD" secondAttribute="bottom" constant="20" id="6OE-5I-DKf"/>
                             <constraint firstItem="Ae8-Tn-d8q" firstAttribute="top" secondItem="Uuw-eS-YSD" secondAttribute="bottom" id="LD7-bL-ZZo"/>
                             <constraint firstItem="YHo-kE-Wq0" firstAttribute="top" secondItem="MzL-BZ-tcb" secondAttribute="bottom" constant="20" id="S2r-vJ-Kps"/>
+                            <constraint firstItem="67c-E2-hV9" firstAttribute="leading" secondItem="Hzf-bB-qCD" secondAttribute="leading" id="a3e-NQ-vyb"/>
                             <constraint firstItem="Ae8-Tn-d8q" firstAttribute="trailing" secondItem="m5w-k3-xKP" secondAttribute="trailingMargin" constant="-26" id="hhz-DP-i7y"/>
                             <constraint firstItem="Hzf-bB-qCD" firstAttribute="centerX" secondItem="m5w-k3-xKP" secondAttribute="centerX" id="oAb-hb-Oy0"/>
                             <constraint firstItem="Hzf-bB-qCD" firstAttribute="top" secondItem="67c-E2-hV9" secondAttribute="bottom" constant="40" id="qry-ta-y3y"/>
@@ -53,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aND-Hs-Nay" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="158.15111111111111" y="420.30737777777779"/>
+            <point key="canvasLocation" x="-10" y="498"/>
         </scene>
     </scenes>
 </document>
