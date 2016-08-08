@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TabApp.xcodeproj">
+      location = "self:/Users/CgPanda/Develop/XCodePractise/TabApp/AutoLayoutTutorial.xcodeproj">
    </FileRef>
 </Workspace>
